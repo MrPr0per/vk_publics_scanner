@@ -1,0 +1,87 @@
+body {
+    background-color: #141414;
+    font-family: monospace;
+    font-size:16px;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+
+.dateTime {
+    text-align: center;
+    color: #d8a800;
+    margin-bottom: 10px;
+}
+
+.line {
+    color:#707070;
+
+    background:black;
+    width:100%;
+    //white-space:nowrap;
+    //overflow-x:none;
+    //display:inline-block;
+    //margin-left: 10px;
+    padding-left: 70px;
+}
+
+.line:hover {
+    color: #909090;
+    background:#202020;
+}
+
+.hostSpan {
+    display: inline-block;
+    width: 264px;
+
+    color:MediumSeaGreen;
+    text-decoration: underline;
+}
+
+.postsSpan {
+    display: inline-block;
+    width: 100px;
+}
+
+.subsSpan {
+    display: inline-block;
+    width: 100px;
+}
+
+.lastDate {
+    display: inline-block;
+    width: 210px;
+}
+
+.imgSpan {
+    display: inline-block;
+    width: 50px;
+}
+
+img {
+    height: 25px;
+}
+
+.nameSpan {
+    display: inline-block;
+    width: 500px;
+    color: #a4a4a4;
+}
+
+.number {
+    color: #00b8ab;
+}
+
+a {
+    color:MediumSeaGreen;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline-style: dashed;
+    outline-width:1px;
+    outline-color: red;
+}
+
+br {
+    line-height: 1.5;
+}
